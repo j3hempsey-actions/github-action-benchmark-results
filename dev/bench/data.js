@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670627847032,
+  "lastUpdate": 1670627891032,
   "repoUrl": "https://github.com/j3hempsey-actions/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -34,6 +34,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkFib20",
             "value": 50097,
+            "unit": "ns/op",
+            "extra": "30000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jhempsey33@gmail.com",
+            "name": "Justin Hempsey",
+            "username": "j3hempsey"
+          },
+          "committer": {
+            "email": "jhempsey33@gmail.com",
+            "name": "Justin Hempsey",
+            "username": "j3hempsey"
+          },
+          "distinct": true,
+          "id": "199abc83cdf9b37f6180294f507ead121520acf8",
+          "message": "Add job summary example",
+          "timestamp": "2022-12-09T15:13:44-08:00",
+          "tree_id": "bb864c08699a7429567ecf47e65415bb100c35d4",
+          "url": "https://github.com/j3hempsey-actions/github-action-benchmark/commit/199abc83cdf9b37f6180294f507ead121520acf8"
+        },
+        "date": 1670627890783,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 402,
+            "unit": "ns/op",
+            "extra": "3000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 50187,
             "unit": "ns/op",
             "extra": "30000 times\n2 procs"
           }
