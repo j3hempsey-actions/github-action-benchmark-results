@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670890968526,
+  "lastUpdate": 1670890999210,
   "repoUrl": "https://github.com/j3hempsey-actions/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -850,6 +850,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "value": 1382855269.4124699,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j3hempsey@users.noreply.github.com",
+            "name": "Justin",
+            "username": "j3hempsey"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "918e3d66d4240f077d9a9d692c1cb1d518d9206d",
+          "message": "Merge branch 'benchmark-action:master' into master",
+          "timestamp": "2022-12-12T16:21:24-08:00",
+          "tree_id": "1323d5c501efbdbdfb5d90c353f1f29f9e85cd92",
+          "url": "https://github.com/j3hempsey-actions/github-action-benchmark/commit/918e3d66d4240f077d9a9d692c1cb1d518d9206d"
+        },
+        "date": 1670890998635,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "value": 1629285522.5724707,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1"
           }
