@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677199585898,
+  "lastUpdate": 1677199598154,
   "repoUrl": "https://github.com/j3hempsey-actions/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -1090,6 +1090,44 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 24.311,
             "range": "± 269",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jhempsey33@gmail.com",
+            "name": "Justin Hempsey",
+            "username": "j3hempsey"
+          },
+          "committer": {
+            "email": "jhempsey33@gmail.com",
+            "name": "Justin Hempsey",
+            "username": "j3hempsey"
+          },
+          "distinct": true,
+          "id": "dd330eda1a581ee424b137363616b2ecbdad91fd",
+          "message": "fix pr lookup error",
+          "timestamp": "2023-02-23T16:44:04-08:00",
+          "tree_id": "a847ae60edda8ef53279d14aaeeb047d11588f33",
+          "url": "https://github.com/j3hempsey-actions/github-action-benchmark/commit/dd330eda1a581ee424b137363616b2ecbdad91fd"
+        },
+        "date": 1677199597673,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 176,
+            "range": "± 16",
+            "unit": "ns",
+            "extra": "100 samples\n184 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 24.398,
+            "range": "± 3.299",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }
